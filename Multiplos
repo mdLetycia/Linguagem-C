@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main()
+{  
+    int a;
+    int b;
+    int div;
+   
+    printf("Informe o primeiro valor: ");
+    scanf("%d", &a);
+    printf("Informe o segundo valor: ");
+    scanf("%d", &b);
+
+     div = a/b;
+     
+    if(a % b== 0){
+        printf("%d é multiplo de %d\n", a, b);
+    }
+    else{
+        printf("%d não é multiplo de %d\n", a, b);}
+
+}
+
