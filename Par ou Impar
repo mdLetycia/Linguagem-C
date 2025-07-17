@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main()
+{  
+    int a;
+    int b=2;
+    int div;
+   
+    printf("Informe o primeiro valor: ");
+    scanf("%d", &a);
+
+     div = a/b;
+     
+    if(a % b== 0){
+        printf("O valor de %d é par\n", a);
+    }
+    else{
+        printf("O valor de %d é impar\n", a);}
+
+}
