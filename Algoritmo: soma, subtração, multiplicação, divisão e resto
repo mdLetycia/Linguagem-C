@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{   int a, b;
+    int soma, sub, mult, div, resto;
+
+    printf("informe o valor de a: ");
+    scanf("%d", &a);
+    printf("Informe o valor de b: ");
+    scanf("%d", &b);
+
+    soma = a+b;
+    sub = a-b;
+    mult = a*b;
+    div = a/b;
+    resto = a%b;
+
+    printf("Soma de %d e %d é: %d\n", a, b, soma);
+    printf("Subtração de %d e %d é: %d\n", a, b, sub);
+    printf("Multiplicação de %d e %d é: %d\n", a, b, mult);
+    printf("Divisão de %d e %d é: %d\n", a, b, div);
+    printf("Resto de %d e %d é: %d\n", a, b, resto);
+    return 0;
+}
