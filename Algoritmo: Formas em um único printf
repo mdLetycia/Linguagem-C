@@ -1,7 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// retangulo
+
+int main()
+{   printf("*********\n*\t*\n*\t*\n*\t*\n*\t*\n*\t*\n*********\n");
+    return 0;
+}
+// seta
 int main()
 {   printf("\t*\n\t\b***\n\t\b\b*****\n\t\b\b\b*******\n\t\b\b\b\b*********\n\t*\n\t\*");
     return 0;
 }
+
+//
