@@ -1,0 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{   printf("\t*\n\t\b***\n\t\b\b*****\n\t\b\b\b*******\n\t\b\b\b\b*********\n\t*\n\t\*");
+    return 0;
+}
