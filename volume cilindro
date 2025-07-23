@@ -2,15 +2,15 @@
 
 int main()
 {   
-    int raio, altura, volume;
+    float raio, altura, volume;
     const float pi = 3.14;
 
     printf("Digite o raio do cilindro: ");
-    scanf("%d",&raio);
+    scanf("%f",&raio);
     printf("Digite a altura do cilindro: ");
-    scanf("%d",&altura);
+    scanf("%f",&altura);
     volume = pi * raio * raio * altura;
-    printf("O volume do cilindro e: %d\n", volume);
+    printf("O volume do cilindro e: %f\n", volume);
     return 0;
 
 }
