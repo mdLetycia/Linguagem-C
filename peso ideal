@@ -2,16 +2,16 @@
 
 int main()
 {   
-    int peso_ideal,altura;
+    float peso_ideal,altura;
     const float k = 72.7;
     const int b = 58;
 
     printf("Digite sua altura: ");
-    scanf("%d", &altura);
+    scanf("%f", &altura);
     peso_ideal = (k * altura) - b;
 
 
-    printf("seu peso ideal é: %d", peso_ideal);
+    printf("seu peso ideal é: %f", peso_ideal);
 
 
     return 0;
