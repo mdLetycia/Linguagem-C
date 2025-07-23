@@ -2,12 +2,12 @@
 
 int main()
 {   
-    int Celsius, Fahrenheit;
+    float Celsius, Fahrenheit;
 
     printf("Insira a temperatura em Celsius: ");
-    scanf("%d", &Celsius);
+    scanf("%f", &Celsius);
     Fahrenheit = (Celsius * 9 / 5) + 32;
-    printf("Temperatura em Fahrenheit: %d\n", Fahrenheit);
+    printf("Temperatura em Fahrenheit: %f\n", Fahrenheit);
     
     return 0;
 
