@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main()
+{   
+    int d,m,a;
+    
+    printf("Digite o dia: \n");
+    scanf("%d",&d);
+    printf("Digite o mês: \n");
+    scanf("%d",&m);
+    printf("Digite o ano: \n");
+    scanf("%d",&a);
+    
+    printf("data: %d/%d/%d",d,m,a);
+    
+    return 0;
+
+}
