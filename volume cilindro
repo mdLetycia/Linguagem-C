@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main()
+{   
+    int raio, altura, volume;
+    const float pi = 3.14;
+
+    printf("Digite o raio do cilindro: ");
+    scanf("%d",&raio);
+    printf("Digite a altura do cilindro: ");
+    scanf("%d",&altura);
+    volume = pi * raio * raio * altura;
+    printf("O volume do cilindro e: %d\n", volume);
+    return 0;
+
+}
