@@ -1,0 +1,30 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+  //Declaração de variavel
+  int n1,n2,n3,n4,n5,menor,maior;
+  
+  //Entrada de dados
+  printf("Informe o primeiro numero 1: ");
+  scanf("%f",&n1);
+  printf("Informe o primeiro numero 2: ");
+  scanf("%f",&n2);
+  printf("Informe o primeiro numero 3: ");
+  scanf("%f",&n3);
+  printf("Informe o primeiro numero 4: ");
+  scanf("%f",&n4);
+  printf("Informe o primeiro numero 5: ");
+  scanf("%f",&n5);
+  
+  
+  //processamento
+  if(n1>n2){
+      menor=n2;
+      maior=n1;
+ printf("O numero maior é:%d",maior,"e o menor é:%d",menor);
+  }
+      
+
+    return 0;
+}
