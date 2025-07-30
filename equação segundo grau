@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+   //Declaração de variavel
+   float a,b,c delta,x1,x2;
+   
+   //Entrada de dados
+   printf("Informe o valor do coeficiente a: ");
+   scanf("%f",&a);
+   printf("Informe o valor do coeficiente b: ");
+   scanf("%f",&b);
+   printf("Informe o valor do coeficiente c: ");
+   scanf("%f",&c);
+   
+   //Processamento
+   
+   if(a==0){
+       printf("Esta equação não é do segundo grau");
+   } else {
+       delta=(b*b)-4*a*c;
+       if(delta < 0){
+           printf("Esta equação não possui raizes reais");
+       } else{
+           if(delta==0){
+               printf("A solução para essa equação é x1= e x2=: ",-b/2*a);
+       }else{
+           x1=(-b+sqrt(delta,2))/2*a;
+           x2=(-b-sqrt(delta,2))/2*a;
+           printf("As raizes da equação são x1=%f",x1,"x2=%f", x2);
+   }
+   
+
+    return 0;
+}
