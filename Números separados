@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main()
+{   
+    int d1,d2,d3,d4,d5;
+    printf("digite um numero de cinco digitos: ");
+    scanf("%d",&d1);
+    scanf("%d",&d2);
+    scanf("%d",&d3);
+    scanf("%d",&d4);
+    scanf("%d",&d5);
+    
+    printf("Numeros normais:%d,%d,%d,%d,%d",d1,d2,d3,d4,d5);
+    
+    printf("Numeros separados:%d,%d,%d,%d,%d",d1,"\t",d2,"\t",d3,"\t",d4,"\t",d5);
+    
+    return 0;
+
+}
