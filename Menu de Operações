@@ -1,0 +1,67 @@
+#include<stdio.h>
+
+int main()
+{   //declaração de variavel
+    int x,y;
+    int soma, sub, mult, div;
+    int escolha;
+    
+    //entrada de dados
+    printf("Escolha uma das operações a seguir: \n");
+    printf("1.Soma.\n");
+    printf("2.Subtração.\n");
+    printf("3.Multiplicação.\n");
+    printf("4.Divisão.\n");
+    scanf("%d",&escolha);
+
+    switch (escolha)
+    {
+    case 1:
+    printf("Primeiro número:\n ");
+    scanf("%d",&x);
+    printf("Segundo número:\n ");
+    scanf("%d",&y);
+
+    soma=x+y;
+
+    printf("A soma dos números é igual a: %d",soma);
+
+        break;
+    case 2:
+    printf("Primeiro número:\n ");
+    scanf("%d",&x);
+    printf("Segundo número:\n ");
+    scanf("%d",&y);
+
+    sub=x-y;
+
+    printf("A diferença dos números é igua a: %d",sub);
+    break;
+    case 3:
+    printf("Primeiro número:\n ");
+    scanf("%d",&x);
+    printf("Segundo número:\n ");
+    scanf("%d",&y);
+    
+    mult=x*y;
+    
+    printf("O produto dos números é igua a: %d",mult);
+    break;
+    case 4:
+    printf("Primeiro número:\n ");
+    scanf("%d",&x);
+    printf("Segundo número:\n ");
+    scanf("%d",&y);
+
+    div=x/y;
+
+    printf("O quociente dos números é igua a: %d",div);
+    break;
+    default:
+        break;
+    }
+
+
+    return 0;
+
+}
