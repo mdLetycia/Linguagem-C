@@ -2,17 +2,21 @@
 
 int main()
 {   
-    int d1,d2,d3,d4,d5;
-    printf("digite um numero de cinco digitos: ");
-    scanf("%d",&d1);
-    scanf("%d",&d2);
-    scanf("%d",&d3);
-    scanf("%d",&d4);
-    scanf("%d",&d5);
+    int i, n1,n2,n3,n4,n5;
     
-    printf("Numeros normais:%d,%d,%d,%d,%d",d1,d2,d3,d4,d5);
+    printf("digite um num de 5 digdígitos: ");
+    scanf("%d",&i);
     
-    printf("Numeros separados:%d,%d,%d,%d,%d",d1,"\t",d2,"\t",d3,"\t",d4,"\t",d5);
+    n1=i/10000;
+    n2=(i/1000)%10;
+    n3=(i/100)% 10;
+    n4=(i/10)% 10;
+    n5=(i%10);
+    
+    
+    
+    printf("%d %d %d %d %d",n1,n2,n3,n4,n5);
+    
     
     return 0;
 
