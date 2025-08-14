@@ -10,7 +10,7 @@ int main() {
     if ((num % 2 == 0 && num % 3 != 0) || (num % 3 == 0 && num % 2 != 0)) {
         printf("O numero %d e divisivel por 2 ou por 3, mas nao simultaneamente pelos dois.\n", num);
     } else {
-        printf("O numero %d NAO atende a condicao.\n", num);
+        printf("O numero %d nao atende a condicao.\n", num);
     }
 
     return 0;
