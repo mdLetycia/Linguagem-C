@@ -11,7 +11,7 @@ int main() {
         printf("O numero %d e divisivel por 2.\n", num);
     } else if((num % 3 == 0)){
     printf("O numero %d e divisivel por 3.\n", num);
-    }else{ printf("O numero %d nao atende a essa condicao.\n", num);}
+    }else{ printf("O numero %d nao corresponde a condição.\n", num);}
     
     return 0;
 }
