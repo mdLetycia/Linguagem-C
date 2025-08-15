@@ -4,7 +4,7 @@ int main()
 {   
     int i, n1,n2,n3,n4,n5;
     
-    printf("digite um num de 5 digdígitos: ");
+    printf("digite um número de 5 digdígitos: ");
     scanf("%d",&i);
     
     n1=i/10000;
