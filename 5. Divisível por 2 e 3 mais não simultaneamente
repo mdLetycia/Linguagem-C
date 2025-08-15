@@ -8,9 +8,9 @@ int main() {
     scanf("%d", &num);
 
     if ((num % 2 == 0)) {
-        printf("O numero %d e divisivel por 2.\n", num);
+        printf("O número %d e divisivel por 2.\n", num);
     } else if((num % 3 == 0)){
-    printf("O numero %d e divisivel por 3.\n", num);
+    printf("O número %d e divisivel por 3.\n", num);
     }else{ printf("número %d nao corresponde a essa condição.\n", num);}
     
     return 0;
